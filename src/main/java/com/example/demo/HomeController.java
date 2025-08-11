@@ -10,6 +10,6 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         System.out.println("home called");
-        return "index vikram bhai"; // looks for index.jsp
+        return "index"; // looks for index.jsp
     }
 }
